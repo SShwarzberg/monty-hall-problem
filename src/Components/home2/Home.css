@@ -1,0 +1,107 @@
+.Home {
+    width: 1200px;
+    margin: 100px auto;
+}
+.canvas { 
+    background-color: lightblue;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.individual-box {
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.see-through-box {
+    background-color: transparent;
+}
+
+img {
+    height: 120px;
+}
+
+.message-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 30px;
+}
+
+.message-container div{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.message-container p {
+    padding: 30px 0;
+    margin-bottom: 50px;
+}
+
+.id-displayed {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    font-size: 1.2rem;
+    background-color: rgb(58, 57, 57);
+    color: white;
+    width: 180px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.btn-container {
+    display: flex;
+    gap: 40px;
+}
+
+.btn-container-disabled button{ 
+    cursor:not-allowed;
+}
+
+.keep-btn { 
+    background-color: green;
+}
+
+.switch-btn {
+    background-color: rgb(158, 12, 12);
+}
+
+.play-again-wrapper {
+    background-color: lightblue;
+    padding: 30px 110px 50px;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.final-message {
+    padding: 30px 0;
+    font-size: 1.5rem;
+}
+
+.play-again {
+    margin: 0 auto;
+    height: 50px;
+    color: black;
+    background-color: rgb(242, 240, 240);
+}
